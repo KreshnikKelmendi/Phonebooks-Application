@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+
+.header{
+  background-color: black;
+  padding: 15px;
+}
+.header h2{
+  text-decoration: none;
+  color: rgb(241, 231, 231);
+}
+
+/*ContainerPage */
+
+.container-page{
+  margin-left: 26%;
+  margin-top: 3%;
+  width: 100vh;
+}
+.container{
+  display: flex;
+}
+.add-contact{
+  margin-left: 73%;
+  padding: 6px;
+  background-color:#2596be;
+  color: white;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  border: none;
+  text-decoration: none;
+}
+
+/*Table Contact */
+
+.table-contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+  
+table {
+  width: 50%;
+  height: 40px;
+  border: 1px solid gainsboro;
+  border-spacing: 0;
+  margin-top: 20px;
+}
+  
+th {
+  border-bottom: 1px solid rgb(247, 241, 241);
+  border-right:1px solid rgb(247, 241, 241) ;
+  /*border: 1px solid gainsboro;*/
+  padding: 8px;
+  font-size: 12px;
+}
+  
+td {
+  text-align: center;
+  border-right: 1px solid rgb(247, 241, 241);
+  border-bottom: 1px solid rgb(247, 241, 241);
+  border-collapse: separate;
+  height: auto;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.edit-button{
+  background-color: rgb(5, 88, 12);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.delete-button{
+  background-color: rgb(245, 60, 60);
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.form-registration{
+  margin-left: 30%;
+  margin-top: 1%;
+}
+.form-registration label{
+  font-weight: bold;
+  font-size: 13px;
+}
+.form-registration input{
+  display: block;
+  width: 60%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(216, 202, 202);
+  padding-left: 10px;
+  margin-top: 5px;
+}
+.form-registration h2{
+  padding-bottom: 15px;
+}
+.save-button{
+  padding: 6px;
+  background-color:#2596be;
+  color: white;
+  border-radius: 5px;
+  font-weight: 500;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.addEmail{
+  padding: 6px;
+  background-color:#2596be;
+  color: white;
+  border-radius: 5px;
+  font-weight: 500;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-left: 58%;
+  display: block;
+}
